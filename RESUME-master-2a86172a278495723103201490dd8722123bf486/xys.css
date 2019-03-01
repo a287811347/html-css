@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+}
+
+.demo {
+
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.dem-left {
+    flex: 1;
+    background: url("11bg.png") #188eee repeat;
+}
+
+.header-img1 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header-img {
+    margin-top: 20%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 10px solid #a4c8ee;
+
+}
+
+.header-img:hover {
+
+    animation: anim 1s ease-in-out infinite;
+}
+
+@keyframes anim {
+    from {
+        box-shadow: 0 0 12px 0 #fff;
+    }
+    to {
+        box-shadow: 0 0 12px #cecece;
+    }
+}
+
+.icon-font-to, .icon-font-ow, .icon-font-wi {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: -28px;
+    position: absolute;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.icon-font-to {
+    background: url(email.svg) center no-repeat #ffffff;
+}
+
+.icon-font-ow {
+    background: url(电话.svg) center no-repeat #ffffff;
+}
+
+.icon-font-wi {
+    background: url(Git.svg) center no-repeat #ffffff;
+}
+
+.det1, .det2, .det3 {
+
+    padding-left: 3em;
+
+}
+
+.content-li {
+    list-style: none;
+    text-align: center;
+}
+
+.content-wz {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff
+}
+
+.content-font {
+
+    text-align: center;
+    font-size: 1em;
+
+    color: #ffffff
+}
+
+.footer- {
+    height: 70px;
+    border: 1px solid #0046ff;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-basis: 50%;
+    border-radius: 6px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 12px 0 #a4ace2;
+}
+
+.footer- li {
+    display: flex;
+    flex-basis: inherit;
+    font-size: 12px;
+    align-items: center;
+    color: #ffffff;
+}
+
+.dem-right {
+    flex: 1;
+}
+
+.wrap-right-a {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.header-right-c {
+
+    border-top: 1px solid #ddd;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header-right-c span {
+
+    position: relative;
+    top: -14px;
+    background: #fff;
+    padding: 0 20px;
+    color: #188eee;
+
+}
+
+.dem-right li {
+    color: #000000;
+    list-style: none;
+    margin-left: -20px;
+}
+
+.dem-right p {
+    color: #999999;
+
+}
+
+.content-lia {
+    width: 8px;
+    height: 8px;
+    background: #188eee;
+    border-radius: 40px;
+    border: 4px solid #c9e0f4;
+    margin-left: -22px;
+    margin-bottom: -34px;;
+}
+
+.al, .all, .alb {
+    color: white;
+    text-decoration: none;
+}
+
+.content-at1 {
+    margin-top: 10px;
+    margin-left: -66px;
+}
+
+.content-at2 {
+    margin-top: 10px;
+    margin-left: -132px;
+}
+
+.content-at3 {
+    margin-top: 10px;
+}
+
+.content-wz-ult {
+    background: linear-gradient(to bottom, #ccc 50%, rgba(25, 25, 25, 0.06) 100%) no-repeat left top/2px 100%;
+    margin-left: 32px;
+}
+
+.content-wz-lit:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #188eee;
+    margin-left: -28px;
+    box-shadow: 0 0 10px 0 #a4c8ee;
+}
+
+.content-wz-lit:hover:before {
+    animation: aniy 1s ease-in-out infinite;
+}
+
+@keyframes aniy {
+    from {
+        box-shadow: 0 0 20px 0 #a4c8ee;
+    }
+    to {
+        box-shadow: 0 0 20px 0 #0023ee;
+    }
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
+
+.content-right-p {
+    float: right;
+    font-size: 12px;
+    color: #999999;
+    width: 50px;
+    height: 18px;
+    margin-top: -42px;
+    border: solid 1px #999999;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.ps, .psi, .psu {
+    position: relative;
+    width: 100%;
+    height: 12px;
+    border-radius: 12px;
+    background: #ccc;
+    margin-top: 20px;
+}
+
+.ps:hover .content-right-p-,
+.psu:hover .content-right-p-1,
+.psi:hover .content-right-p-2 {
+    animation: progress 1s ease-in 1;
+
+}
+
+.content-right-p-, .content-right-p-1, .content-right-p-2 {
+    background: #1E90FF;
+    height: 12px;
+    border-radius: 10px;
+}
+
+.content-right-p- {
+    width: 30%;
+}
+
+.content-right-p-1 {
+    width: 70%;
+}
+
+.content-right-p-2 {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .demo {
+        display: inline-block;
+
+    }
+
+    .dem-left {
+        flex: 1;
+        min-height: 100vh;
+        background: url("11bg.png") #188eee repeat;
+    }
+
+    .footer- {
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
+    .dem-right {
+        min-height: 100vh;
+        flex: 1;
+
+    }
+}
